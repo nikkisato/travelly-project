@@ -213,6 +213,70 @@ nav ul {
 .card p {
   padding: 1rem;
 }
+
+/* Contact Us Section */
+#contact {
+  min-height: 100vh;
+  background: url('/img/contact-mountain.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+  color: white;
+  border-radius: 20px;
+}
+
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+
+.name-form,
+.email-form {
+  padding: 3rem;
+  text-align: center;
+}
+
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 8rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form-wrapper input {
+  padding: 1rem 3rem;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background: rgba(19, 28, 39, 0.8);
+  font-size: 2.5rem;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+}
 /* Media Query */
 
 @media screen and (max-width: 932px) {
